@@ -41,7 +41,7 @@ void draw() {
 
   image(treasure,treasureLocationX,treasureLocationY);
 
-  image(fighter,600,240);
+  image(fighter,580,240);
   
   image(enemy,enemyLocationX,enemyLocationY);
   enemyLocationX += 3;
