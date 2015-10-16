@@ -1,7 +1,6 @@
 int x;
 int healthPoint;
 int treasureLocationX, treasureLocationY;
-int fighterLocationX;
 int enemyLocationX, enemyLocationY;
 PImage bg1, bg2, enemy, fighter, hp, treasure;
 
@@ -18,7 +17,6 @@ void setup () {
   healthPoint = 0;
   treasureLocationX = 0;
   treasureLocationY = 0;
-  fighterLocationX = 640;
   enemyLocationX = 0;
   enemyLocationY = 0;
   
@@ -43,7 +41,7 @@ void draw() {
 
   image(treasure,treasureLocationX,treasureLocationY);
 
-  image(fighter,fighterLocationX,240);
+  image(fighter,640,240);
   
   image(enemy,enemyLocationX,enemyLocationY);
   enemyLocationX += 3;
